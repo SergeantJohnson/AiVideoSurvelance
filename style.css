@@ -9,7 +9,7 @@ body{
     width: 100%;
 }
 
-#start,#status,#number_of_objects{
+.start,#status,#number_of_objects{
     font-size:18px;
 }
 
@@ -22,6 +22,7 @@ body{
     position:fixed;
     text-align: center;
     line-height: 3;
+    margin-top: 130px !important;
 }
 
 canvas{
@@ -29,4 +30,10 @@ canvas{
     border-radius: 10px;
     box-shadow:5px 5px 5px tomato;
     margin-top:130px;
+    margin-bottom:400px !important;
+}
+
+#speed,#volume{
+    width:200px;
+    margin-bottom: 100px;
 }

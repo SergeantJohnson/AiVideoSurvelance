@@ -19,12 +19,21 @@
 <h1 class="btn btn-warning heading"> AI Video Surveillance </h1>
 <br>
 <br>
-<button class="btn btn-success" onclick="start()" id="start"> Start </button>
+<button class="btn btn-success start" onclick="start()"> Start </button>
+<button class="btn btn-info start" onclick="stop()"> Stop </button>
+<button class="btn btn-danger start" onclick="pause()"> Pause </button>
 <br>
 <br>
 <h3 class="btn btn-danger" id="number_of_objects"></h3>
 <h3 class="btn btn-info" id="status"></h3>
 </center>
+<br>
+<br>
+<label class="btn btn-danger"> Volume </label>
+<input type="range" id="volume" max="10" min="0"  onchange="slider_value();">
+<br>
+<label class="btn btn-danger"> Speed </label>
+<input type="range" id="speed" max="10" min="0.5"  onchange="slider_value();">
 <div class="copy_right_footer"> 
 Developed By Aryan Khairnar   
 </div>
